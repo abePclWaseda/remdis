@@ -6,7 +6,7 @@ AIN:
 
 ASR:
  buff_size: 10
- json_key: <enter your json path>
+ json_key: /mnt/kiso-qnap3/yuabe/m1/remdis/remdis-458602-f317a9df1eb5.json
  language: ja-JP
  chunk_size: 20
  sample_rate: 16000 # Hz
@@ -23,7 +23,7 @@ DIALOGUE:
  max_silence_time: 5.0 # sec
 
 ChatGPT:
- api_key: <enter your API key>
+ api_key: $OPENAI_API_KEY
  max_tokens: 128
  max_message_num_in_context: 4
  response_generation_model: "gpt-4o-mini" # "gpt-3.5-turbo", "gpt-4o-mini", "gpt-4"
